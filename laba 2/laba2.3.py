@@ -1,3 +1,6 @@
-s = input("Введите строку: ")
-t = min(s.split(), key=len)
-print("Самое короткое слово в строке: ", t)
+S1 = input("Введите строку: ").split()
+print(min(S1, key=len))
+
+
+
+

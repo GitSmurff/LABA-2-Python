@@ -1,4 +1,4 @@
-s = input("Введите строку: ").split()
+s = input("Введите строку: ").split(" ")
 c = 0
 for i in s:
     if len(i) > c:

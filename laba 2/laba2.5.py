@@ -1,4 +1,4 @@
+import re
 s = input()
-s = s.split()
-k = len(s)
-print(k)
+print(len(re.findall('\w+', s)))
+    
